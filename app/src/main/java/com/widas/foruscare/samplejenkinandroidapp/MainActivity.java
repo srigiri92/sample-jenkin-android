@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Toast.makeText(getApplication(),"Welcome to jenkins Android",Toast.LENGTH_LONG).show();
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
